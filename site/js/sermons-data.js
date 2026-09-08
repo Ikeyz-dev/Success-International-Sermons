@@ -57,7 +57,7 @@ const SERMONS = [
   {
     slug: "sight",
     title: "Sight",
-    date: "2026-09-08",
+    date: "2026-09-05",
     scriptureRef: "Jeremiah 1:11",
     scriptureText:
       "Moreover the word of the Lord came unto me, saying, Jeremiah, what seest thou? And I said, I see a rod of an almond tree.",

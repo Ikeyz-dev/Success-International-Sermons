@@ -29,11 +29,182 @@
   <div class="hero-inner">
     <p class="church-tag">Success International Church</p>
     <h1>Teaching the Word.<br>Building Purpose.<br>Transforming Lives.</h1>
-    <p class="lede" style="color: rgba(250,248,243,0.75); margin-top: 1.25rem;">
+    <p class="lede" style="color: rgba(253,251,254,0.75); margin-top: 1.25rem;">
       Sermons and teaching from Success International Church —
       practical, Scripture-rooted messages for the road ahead.
     </p>
     <div class="hero-actions">
+      <a href="#latest-message" class="btn btn-primary">Listen to the Latest Message</a>
+      <a href="#" class="btn btn-ghost" data-hook="hero-notes-link">Read the Notes</a>
+    </div>
+
+    <!-- Mini player anchored in the hero -->
+    <div class="player" data-audio-player data-hook="hero-player">
+      <audio data-hook="hero-audio" preload="metadata"></audio>
+      <div class="player-top">
+        <button class="play-btn" data-play-btn aria-label="Play sermon"></button>
+        <div class="player-meta">
+          <div class="player-title" data-hook="hero-title">&nbsp;</div>
+          <div class="player-sub" data-hook="hero-sub">&nbsp;</div>
+        </div>
+        <button class="speed-btn" data-speed-btn>1×</button>
+      </div>
+      <canvas class="waveform" data-waveform></canvas>
+      <div class="player-seek-row">
+        <span data-current-time>0:00</span>
+        <input type="range" data-seek value="0" min="0" max="100" step="1" aria-label="Seek" />
+        <span data-duration>0:00</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= FEATURED SERMON ========================= -->
+<section class="section" id="latest-message">
+  <div class="section-inner">
+    <p class="eyebrow-plain">Latest message</p>
+    <div class="featured-grid">
+      <div>
+        <h2 data-hook="featured-title">&nbsp;</h2>
+        <div class="featured-meta-row">
+          <span><strong>Scripture:</strong> <span data-hook="featured-scripture"></span></span>
+          <span><strong>Date:</strong> <span data-hook="featured-date"></span></span>
+          <span><strong>Length:</strong> <span data-hook="featured-length"></span></span>
+        </div>
+        <p class="lede" data-hook="featured-description"></p>
+        <a href="#" class="notes-link" data-hook="featured-notes-link">Read the full sermon notes →</a>
+      </div>
+
+      <div class="player player-light" data-audio-player data-hook="featured-player">
+        <audio data-hook="featured-audio" preload="metadata"></audio>
+        <div class="player-top">
+          <button class="play-btn" data-play-btn aria-label="Play sermon"></button>
+          <div class="player-meta">
+            <div class="player-title" data-hook="featured-player-title">&nbsp;</div>
+            <div class="player-sub" data-hook="featured-player-sub">&nbsp;</div>
+          </div>
+          <button class="speed-btn" data-speed-btn>1×</button>
+        </div>
+        <canvas class="waveform" data-waveform></canvas>
+        <div class="player-seek-row">
+          <span data-current-time>0:00</span>
+          <input type="range" data-seek value="0" min="0" max="100" step="1" aria-label="Seek" />
+          <span data-duration>0:00</span>
+        </div>
+        <a class="player-download" data-download download href="#" data-hook="featured-download">Download this message</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========================= SIGNPOSTS ============================= -->
+<!-- Populated from the latest sermon's `points` array. First point gets
+     the open/airy treatment, remaining points stack in the right column. -->
+<div class="signposts" id="signposts" data-hook="signposts-container">
+</div>
+
+<!-- ======================= WORDS WORTH REMEMBERING ================= -->
+<section class="section section-dark">
+  <div class="section-inner">
+    <p class="eyebrow-plain">Words worth remembering</p>
+    <h2 style="color: var(--paper);">From this message</h2>
+
+    <div class="quotes-grid" data-hook="quotes-container">
+    </div>
+  </div>
+</section>
+
+<!-- =========================== PASTOR PROFILE ======================= -->
+<!-- Not sermon-specific — stays as-is until real pastor details/photo
+     are available. -->
+<section class="section" id="pastor">
+  <div class="section-inner">
+    <p class="eyebrow-plain">The man behind the message</p>
+    <div class="profile-grid">
+      <img src="assets/images/pastor-portrait.jpg" alt="Pastor of Success International Church" class="profile-photo" />
+      <div>
+        <h2>Apostle to the Nations</h2>
+        <p class="lede">
+          Called to establish God's people as an Apostle to the
+          nations, leading Success International Church with a
+          singular vision: success and empowerment for all.
+        </p>
+        <div class="profile-columns">
+          <div>
+            <h4>His Vision</h4>
+            <p>Success Empowerment For All.</p>
+          </div>
+          <div>
+            <h4>His Calling</h4>
+            <p>Called as an Apostle to the nations to establish God's people.</p>
+          </div>
+          <div>
+            <h4>The Ministry</h4>
+            <p>Success International Church — Home of Champions.</p>
+          </div>
+          <div>
+            <h4>This Season</h4>
+            <p>The focus of the season is soul winning.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================== SCRIPTURE ============================ -->
+<section class="scripture-feature">
+  <blockquote data-hook="scripture-text">
+  </blockquote>
+  <cite data-hook="scripture-ref"></cite>
+</section>
+
+<!-- ========================= NOTES PREVIEW =========================== -->
+<section class="section">
+  <div class="section-inner">
+    <p class="eyebrow-plain">Sermon notes</p>
+    <h2 data-hook="notes-preview-title">&nbsp;</h2>
+    <p class="lede" style="margin-bottom: 2.5rem;">A structured breakdown of this message — for personal study, small groups, or a quick refresher before you share it with someone else.</p>
+
+    <div class="notes-preview">
+      <div class="notes-card">
+        <h4>Key Points</h4>
+        <ul data-hook="notes-preview-points"></ul>
+      </div>
+      <div class="notes-card">
+        <h4>Practical Applications</h4>
+        <ul data-hook="notes-preview-applications"></ul>
+      </div>
+    </div>
+
+    <a href="#" class="notes-link" style="margin-top: 2rem;" data-hook="notes-preview-link">📖 Read the full sermon notes →</a>
+  </div>
+</section>
+
+<!-- ========================= MORE MESSAGES =========================== -->
+<!-- Every sermon except the latest one gets listed here so it stays
+     reachable. This is a simple list, not the full searchable library
+     — that's a planned v2 feature once there are more sermons. -->
+<section class="section" data-hook="more-messages-section" style="display:none;">
+  <div class="section-inner">
+    <p class="eyebrow-plain">More messages</p>
+    <h2>Past Sermons</h2>
+    <div class="notes-preview" data-hook="more-messages-list" style="grid-template-columns: 1fr;">
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="church-name">Success International Church</div>
+  <p style="color: var(--purple); font-style: italic; margin-bottom: 0.5rem;">Home of Champions</p>
+  <p>Teaching the Word. Building People. Transforming Lives.</p>
+</footer>
+
+<script src="js/sermons-data.js"></script>
+<script src="js/render-homepage.js"></script>
+<script src="js/audio-player.js"></script>
+</body>
+</html>
       <a href="#latest-message" class="btn btn-primary">Listen to the Latest Message</a>
       <a href="#" class="btn btn-ghost" data-hook="hero-notes-link">Read the Notes</a>
     </div>

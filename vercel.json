@@ -5,10 +5,11 @@
       "use": "@vercel/static"
     }
   ],
-  "routes": [
+  "rewrites": [
     {
-      "src": "/(.*)",
-      "dest": "/site/$1"
+      "source": "/(.*)",
+      "destination": "/site/$1"
     }
-  ]
+  ],
+  "cleanUrls": true
 }

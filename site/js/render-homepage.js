@@ -25,8 +25,14 @@
   }
 
   function whatsappShareUrl(quote, sermon) {
-    const text = `"${quote}" — ${sermon.title}, Success International Church`;
+    const notesUrl = `${window.location.origin}/sermons/${sermon.slug}.html`;
+    const text = `"${quote}" — ${sermon.title}, Success International Church. ${notesUrl}`;
     return `https://wa.me/?text=${encodeURIComponent(text)}`;
+  }
+
+  function facebookShareUrl(sermon) {
+    const notesUrl = `${window.location.origin}/sermons/${sermon.slug}.html`;
+    return `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(notesUrl)}`;
   }
 
   function render() {
@@ -98,7 +104,7 @@
           <blockquote>&ldquo;${escapeHtml(q)}&rdquo;</blockquote>
           <div class="quote-share">
             <a href="${whatsappShareUrl(q, latest)}" target="_blank" rel="noopener">WhatsApp</a>
-            <a href="https://www.facebook.com/sharer/sharer.php?u=" target="_blank" rel="noopener">Facebook</a>
+            <a href="${facebookShareUrl(latest)}" target="_blank" rel="noopener">Facebook</a>
           </div>
         </div>`
         )

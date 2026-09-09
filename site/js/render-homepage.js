@@ -25,13 +25,13 @@
   }
 
   function whatsappShareUrl(quote, sermon) {
-    const notesUrl = `${window.location.origin}/sermons/${sermon.slug}.html`;
+    const notesUrl = `${window.location.origin}/sermons/${sermon.slug}`;
     const text = `"${quote}" — ${sermon.title}, Success International Church. ${notesUrl}`;
     return `https://wa.me/?text=${encodeURIComponent(text)}`;
   }
 
   function facebookShareUrl(sermon) {
-    const notesUrl = `${window.location.origin}/sermons/${sermon.slug}.html`;
+    const notesUrl = `${window.location.origin}/sermons/${sermon.slug}`;
     return `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(notesUrl)}`;
   }
 
@@ -42,7 +42,7 @@
     const others = SERMONS.filter((s) => s.slug !== latest.slug).sort(
       (a, b) => new Date(b.date) - new Date(a.date)
     );
-    const notesUrl = `sermons/${latest.slug}.html`;
+    const notesUrl = `sermons/${latest.slug}`;
 
     // --- Hero ---------------------------------------------------------
     hook("hero-notes-link").setAttribute("href", notesUrl);
@@ -143,7 +143,7 @@
         .map(
           (s) => `
         <div class="notes-card">
-          <h4><a href="sermons/${s.slug}.html" style="color: var(--ink); text-decoration: none;">${escapeHtml(s.title)}</a></h4>
+          <h4><a href="sermons/${s.slug}" style="color: var(--ink); text-decoration: none;">${escapeHtml(s.title)}</a></h4>
           <p style="color: var(--brown); margin: 0;">${s.scriptureRef} · ${formatDate(s.date)}</p>
         </div>`
         )

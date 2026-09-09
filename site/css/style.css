@@ -394,14 +394,7 @@ p {
   color: var(--muted);
 }
 
-.player-light .play-btn::before {
-  border-color: transparent transparent transparent var(--ink);
-}
 
-.player-light.is-playing .play-btn::before {
-  border-left-color: var(--ink);
-  border-right-color: var(--ink);
-}
 
 /* =====================================================================
    Featured sermon

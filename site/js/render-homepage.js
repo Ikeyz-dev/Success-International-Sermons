@@ -144,7 +144,7 @@
           (s) => `
         <div class="notes-card">
           <h4><a href="sermons/${s.slug}" style="color: var(--ink); text-decoration: none;">${escapeHtml(s.title)}</a></h4>
-          <p style="color: var(--brown); margin: 0;">${s.scriptureRef} · ${formatDate(s.date)}</p>
+          <p style="color: var(--muted); margin: 0;">${s.scriptureRef} · ${formatDate(s.date)}</p>
         </div>`
         )
         .join("");

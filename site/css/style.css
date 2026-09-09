@@ -209,12 +209,12 @@ p {
 }
 
 .btn-primary {
-  background: var(--purple);
-  color: var(--ink);
+  background: var(--red);
+  color: var(--paper);
 }
 
 .btn-primary:hover {
-  background: #8f5fa8;
+  background: #e2413c;
 }
 
 .btn-ghost {
@@ -234,7 +234,7 @@ p {
 .player {
   --progress: 0%;
   background: var(--ink-soft);
-  border: 1px solid rgba(201, 161, 92, 0.2);
+  border: 1px solid rgba(123, 78, 145, 0.2);
   border-radius: 6px;
   padding: 1.5rem;
 }
@@ -252,8 +252,8 @@ p {
   height: 3rem;
   border-radius: 50%;
   border: none;
-  background: var(--purple);
-  color: var(--ink);
+  background: var(--red);
+  color: var(--paper);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -267,7 +267,7 @@ p {
   height: 0;
   border-style: solid;
   border-width: 8px 0 8px 13px;
-  border-color: transparent transparent transparent var(--ink);
+  border-color: transparent transparent transparent var(--paper);
   margin-left: 3px;
 }
 
@@ -275,8 +275,8 @@ p {
   border-style: none;
   width: 4px;
   height: 14px;
-  border-left: 5px solid var(--ink);
-  border-right: 5px solid var(--ink);
+  border-left: 5px solid var(--paper);
+  border-right: 5px solid var(--paper);
   margin-left: 0;
 }
 
@@ -509,7 +509,7 @@ p {
 
 .quote-card {
   background: var(--ink-soft);
-  border: 1px solid rgba(201, 161, 92, 0.2);
+  border: 1px solid rgba(123, 78, 145, 0.2);
   border-radius: 6px;
   padding: 2rem 1.75rem;
   display: flex;
@@ -561,7 +561,7 @@ p {
 .profile-photo {
   aspect-ratio: 4 / 5;
   border-radius: 6px;
-  border: 1px solid rgba(201, 161, 92, 0.3);
+  border: 1px solid rgba(123, 78, 145, 0.3);
 }
 
 .profile-placeholder {

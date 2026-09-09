@@ -53,53 +53,6 @@ const SERMONS = [
       "Pray for grace to work with diligence, not just activity, and for God to bless the work of your hands.",
       "Ask for the discipline to rest on the day God has appointed, trusting Him with the work undone."
     ]
-  },
-  {
-    slug: "sight",
-    title: "Sight",
-    date: "2026-09-05",
-    scriptureRef: "Jeremiah 1:11",
-    scriptureText:
-      "Moreover the word of the Lord came unto me, saying, Jeremiah, what seest thou? And I said, I see a rod of an almond tree.",
-    description:
-      "Success requires seeing beyond physical circumstances into spiritual and mental realities. Acting as a spiritual ophthalmologist, this message teaches believers how to develop divine vision, differentiate it from mere ambition, and stay focused on God's plan.",
-    audioSrc: "assets/audio/sight.mp3",
-    durationLabel: "33:12",
-    points: [
-      {
-        title: "Vision vs. Ambition",
-        summary:
-          "Vision is insight into God's plan, whereas ambition is self-generated.",
-        body: "Vision is God-given, God-breathed, and centered on serving others. In contrast, ambition is self-generated and focused on personal gain and benefit."
-      },
-      {
-        title: "Operating in the Celestial Realm",
-        summary:
-          "Guiding life by spiritual vision rather than physical sight.",
-        body: "Physical eyes navigate terrestrial matters, but spiritual eyes navigate the celestial realm. A shepherd's job is to act as a spiritual ophthalmologist, helping believers perceive spiritual realities before they become physical."
-      },
-      {
-        title: "Direction and Focus",
-        summary:
-          "Catching God's vision gives your life divine purpose and clarity.",
-        body: "Discovering God's specific plan prevents you from living aimlessly. Like Jesus withdrawing when the crowd tried to force Him into earthly kingship, vision keeps you focused on your true assignment."
-      }
-    ],
-    quotes: [
-      "Vision is insight into the plan of God for your life.",
-      "Vision is God-given and other-centered; ambition is self-generated and self-centered.",
-      "In our walk with God, it is our spiritual eyes that guide us, not our physical eyes."
-    ],
-    applications: [
-      "Examine your primary goals to ensure they stem from God-given vision rather than self-centered ambition.",
-      "Spend intentional quiet time in prayer asking God to illuminate spiritual realities about your future.",
-      "Identify and eliminate distractions that pull you away from God's specific assignment for your life."
-    ],
-    prayerPoints: [
-      "Ask God to heal spiritual blindness and correct your spiritual eyesight so you can see as He sees.",
-      "Pray for clarity to discern between divine vision and personal ambition.",
-      "Pray for focus and discipline to stay on the path God has mapped out for your destiny."
-    ]
   }
 ];
 

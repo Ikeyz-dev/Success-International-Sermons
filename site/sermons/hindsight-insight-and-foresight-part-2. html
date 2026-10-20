@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hindsight, Insight and Foresight (Part 2) | Bible Masterclass</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <a href="index.html" class="logo">Bible Masterclass</a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="sermons.html">Sermons</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container sermon-detail">
+        <div class="back-link">
+            <a href="sermons.html">&larr; Back to Sermons</a>
+        </div>
+
+        <div class="sermon-meta-header">
+            <span class="date">June 7, 2026</span>
+            <span class="scripture-ref">Matthew 6:22-23</span>
+        </div>
+
+        <h1>Hindsight, Insight and Foresight (Part 2)</h1>
+        <p class="lede">Discovering God's vision and plan for your life brings true purpose, protects you from wasting time, and anchors you in eternal significance.</p>
+
+        <!-- Audio Player Widget -->
+        <div class="audio-player-card">
+            <audio id="sermonAudio" src="assets/audio/Bible_Masterclass_Day_2_Hindsight,_Insight_and_Foresight_Part_2.mp3" preload="metadata"></audio>
+            <div class="player-controls">
+                <button id="playPauseBtn" class="play-btn">Play</button>
+                <div class="track-info">
+                    <span class="track-title">Hindsight, Insight and Foresight (Part 2)</span>
+                    <span class="track-duration">45:00</span>
+                </div>
+                <a href="assets/audio/Bible_Masterclass_Day_2_Hindsight,_Insight_and_Foresight_Part_2.mp3" download class="download-btn">Download</a>
+            </div>
+        </div>
+
+        <div class="sermon-content">
+            <section class="scripture-box">
+                <h2>Scripture Reading</h2>
+                <blockquote>
+                    "The light of the body is the eye: if therefore thine eye be single, thy whole body shall be full of light. But if thine eye be evil, thy whole body shall be full of darkness. If therefore the light that is in you be darkness, how great is that darkness!"
+                    <cite>— Matthew 6:22-23 (KJV)</cite>
+                </blockquote>
+            </section>
+
+            <section class="key-points">
+                <h2>Key Masterclass Points</h2>
+                
+                <article class="point-card">
+                    <h3>1. Catching God's Vision Gives Your Life Direction and Focus</h3>
+                    <p class="point-summary"><strong>Core Truth:</strong> Speed is not an advantage if you are headed in the wrong direction.</p>
+                    <p>When you catch God's vision for your life, it provides divine direction and focus. Progress cannot be measured merely by activity if you are chasing the wrong things; true purpose ensures you do not waste your life.</p>
+                </article>
+
+                <article class="point-card">
+                    <h3>2. God's Plan Provides a True Reason for Living</h3>
+                    <p class="point-summary"><strong>Core Truth:</strong> His purpose for your life should be the ultimate reason why you live.</p>
+                    <p>Discovering God's blueprint gives you an unshakeable reason for existence. It separates eternal significance from temporary, materialistic pursuits that hold no value in the light of eternity.</p>
+                </article>
+
+                <article class="point-card">
+                    <h3>3. Spiritual Vision Outshines Physical Sight</h3>
+                    <p class="point-summary"><strong>Core Truth:</strong> Physical sight is inferior to spiritual vision when discerning destiny matters.</p>
+                    <p>In matters of destiny and purpose, physical eyes can only perceive what is temporary. True spiritual insight, revealed by the Holy Spirit, allows you to see things to come and align with God's ultimate design.</p>
+                </article>
+
+                <article class="point-card">
+                    <h3>4. Preserving Your Works for Eternity</h3>
+                    <p class="point-summary"><strong>Core Truth:</strong> Your labor and message must be preserved so they continue to bless generations.</p>
+                    <p>A life lived for God leaves a legacy that outlasts physical presence. Just like the preserved works of great fathers of faith, your spiritual impact should endure long after you are gone.</p>
+                </article>
+            </section>
+
+            <section class="quotes-section">
+                <h2>Notable Quotes</h2>
+                <ul>
+                    <li>"Speed is not an advantage if you are headed in the wrong direction."</li>
+                    <li>"Anything you do on earth that doesn't matter in the light of eternity is a waste of time."</li>
+                    <li>"Vision puts you in the God-class; it gives you insight into the plan of God for your life."</li>
+                    <li>"In destiny matters, physical vision and physical sight are inferior to spiritual vision."</li>
+                </ul>
+            </section>
+
+            <section class="applications-section">
+                <h2>Practical Applications</h2>
+                <ol>
+                    <li>Commit serious time to prayer, asking God to open your spiritual eyes and reveal His specific plan for your life.</li>
+                    <li>Evaluate your current pursuits and career goals against the perspective of eternity rather than temporary worldly validation.</li>
+                    <li>Build a time-saving and eternity-focused lifestyle that prioritizes God's calling above personal ambitions.</li>
+                </ol>
+            </section>
+
+            <section class="prayer-points-section">
+                <h2>Prayer Points</h2>
+                <ol>
+                    <li>Lord, open my spiritual eyes and grant me divine insight into Your master plan for my life.</li>
+                    <li>Father, deliver me from chasing the wrong things and wasting my precious time on earth.</li>
+                    <li>Holy Spirit, help me to walk strictly in Your vision and preserve my life's work for Your eternal glory.</li>
+                </ol>
+            </section>
+
+            <div class="share-row">
+                <h3>Share these notes</h3>
+                <div class="share-buttons">
+                    <a href="#" class="share-whatsapp">Share on WhatsApp</a>
+                    <a href="#" class="share-facebook">Share on Facebook</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2026 Bible Masterclass. Preserving truth and divine vision across generations.</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/player.js"></script>
+</body>
+</html>

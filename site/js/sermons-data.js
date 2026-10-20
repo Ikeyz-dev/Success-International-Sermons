@@ -148,7 +148,50 @@ const SERMONS = [
     "Father, deliver me from chasing the wrong things and wasting my precious time on earth.",
     "Holy Spirit, help me to walk strictly in Your vision and preserve my life's work for Your eternal glory."
   ]
+}, 
+{
+  slug: "renewing-your-mind-and-testing-the-spirit",
+  title: "Renewing Your Mind and Testing the Spirit",
+  date: "2026-06-06",
+  scriptureRef: "Matthew 6:22",
+  scriptureText: "The light of the body is the eye: if therefore thine eye be single, thy whole body shall be full of light.",
+  description: "A profound exploration of how our spiritual and mental eyes shape our lives, teaching us to filter dreams, thoughts, and guidance through the infallible Word of God.",
+  audioSrc: "assets/audio/renewing-your-mind.mp3",
+  durationLabel: "45:00",
+  points: [
+    { 
+      title: "The Power of the Mental and Spiritual Eye", 
+      summary: "What dominates your mind ultimately dominates and directs your life.", 
+      body: "Just as we have physical eyes, we possess spiritual and mental eyes—our imagination and thoughts. Whatever governs your mind will steer the course of your life, which is why controlling and guarding what enters our minds is critical." 
+    },
+    { 
+      title: "Testing Every Source: Word vs. Dream", 
+      summary: "Not every dream, vision, or voice is from God; all must be tested by Scripture.", 
+      body: "Dreams and divine guidance must always be weighed against the written Word of God. The Word is the most reliable source of truth, and any revelation or impression that contradicts Scripture must be rejected." 
+    },
+    { 
+      title: "Healthy Fear vs. Unhealthy Fear", 
+      summary: "While healthy fear provides necessary caution and reverence, destructive fear paralyzes faith.", 
+      body: "Fear of consequences, of the future, or of failure can limit us if it rules us. However, proper reverence for God (the beginning of wisdom) and healthy caution protect us, while faith fueled by the Word helps us overcome anxiety." 
+    }
+  ],
+  quotes: [
+    "Whatever dominates your mind will dominate your life.",
+    "If a dream or vision is not backed by the Word of God, it is not from God.",
+    "Fear is a constant factor in life, but you must not let it rule you."
+  ],
+  applications: [
+    "Regularly immerse your mind in the Word of God to program your thoughts with His truth.",
+    "Test every spiritual impression, dream, or council against biblical principles before acting on it.",
+    "Actively confront fear of the future or failure by aligning your life with God's plans and promises."
+  ],
+  prayerPoints: [
+    "Lord, purify my imagination and let my mind be fully illuminated by Your Word.",
+    "Grant me discernment to test every spirit and recognize Your true guidance in my life.",
+    "Strip away destructive fear and fill my heart with unwavering faith for the future."
+  ]
 }
+ 
  
 ];
 

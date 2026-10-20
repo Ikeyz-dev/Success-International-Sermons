@@ -100,8 +100,56 @@ const SERMONS = [
     "Father, deliver me from living a wasted or unfocused life driven only by surface pursuits.",
     "Grant me the grace, courage, and steadfastness to run my own unique race and fulfill Your divine will."
   ]
+}, 
+{
+  "slug": "hindsight-insight-and-foresight-part-2",
+  "title": "Hindsight, Insight and Foresight (Part 2)",
+  "date": "2026-06-07",
+  "scriptureRef": "Matthew 6:22-23",
+  "scriptureText": "The light of the body is the eye: if therefore thine eye be single, thy whole body shall be full of light. But if thine eye be evil, thy whole body shall be full of darkness. If therefore the light that is in you be darkness, how great is that darkness!",
+  "description": "Discovering God's vision and plan for your life brings true purpose, protects you from wasting time, and anchors you in eternal significance.",
+  "audioSrc": "assets/audio/Bible_Masterclass_Day_2_Hindsight,_Insight_and_Foresight_Part_2.mp3",
+  "durationLabel": "45:00",
+  "points": [
+    {
+      "title": "Catching God's Vision Gives Your Life Direction and Focus",
+      "summary": "Speed is not an advantage if you are headed in the wrong direction.",
+      "body": "When you catch God's vision for your life, it provides divine direction and focus. Progress cannot be measured merely by activity if you are chasing the wrong things; true purpose ensures you do not waste your life."
+    },
+    {
+      "title": "God's Plan Provides a True Reason for Living",
+      "summary": "His purpose for your life should be the ultimate reason why you live.",
+      "body": "Discovering God's blueprint gives you an unshakeable reason for existence. It separates eternal significance from temporary, materialistic pursuits that hold no value in the light of eternity."
+    },
+    {
+      "title": "Spiritual Vision Outshines Physical Sight",
+      "summary": "Physical sight is inferior to spiritual vision when discerning destiny matters.",
+      "body": "In matters of destiny and purpose, physical eyes can only perceive what is temporary. True spiritual insight, revealed by the Holy Spirit, allows you to see things to come and align with God's ultimate design."
+    },
+    {
+      "title": "Preserving Your Works for Eternity",
+      "summary": "Your labor and message must be preserved so they continue to bless generations.",
+      "body": "A life lived for God leaves a legacy that outlasts physical presence. Just like the preserved works of great fathers of faith, your spiritual impact should endure long after you are gone."
+    }
+  ],
+  "quotes": [
+    "Speed is not an advantage if you are headed in the wrong direction.",
+    "Anything you do on earth that doesn't matter in the light of eternity is a waste of time.",
+    "Vision puts you in the God-class; it gives you insight into the plan of God for your life.",
+    "In destiny matters, physical vision and physical sight are inferior to spiritual vision."
+  ],
+  "applications": [
+    "Commit serious time to prayer, asking God to open your spiritual eyes and reveal His specific plan for your life.",
+    "Evaluate your current pursuits and career goals against the perspective of eternity rather than temporary worldly validation.",
+    "Build a time-saving and eternity-focused lifestyle that prioritizes God's calling above personal ambitions."
+  ],
+  "prayerPoints": [
+    "Lord, open my spiritual eyes and grant me divine insight into Your master plan for my life.",
+    "Father, deliver me from chasing the wrong things and wasting my precious time on earth.",
+    "Holy Spirit, help me to walk strictly in Your vision and preserve my life's work for Your eternal glory."
+  ]
 }
-
+ 
 ];
 
 // Convenience helpers used by the homepage / future library UI
